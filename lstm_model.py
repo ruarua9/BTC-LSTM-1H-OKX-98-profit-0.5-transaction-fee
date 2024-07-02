@@ -71,7 +71,7 @@ if __name__ == "__main__":
     save_model(model, 'lstm_model.keras')
 
 
-# 使用说明：
+## 使用说明：
 # 1. 确保你已经运行了之前的数据处理脚本并生成了'processed_btc_usdt_data.csv'文件
 # 2. 运行此脚本来构建和训练LSTM模型
 # 3. 脚本将输出测试损失和对下一个时间段收盘价的预测

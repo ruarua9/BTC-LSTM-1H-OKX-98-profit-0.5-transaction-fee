@@ -43,7 +43,7 @@ def add_features(df):
     
     return df
 
-# 如果你想在这个文件中测试函数，可以添加以下代码：
+## 如果你想在这个文件中测试函数，可以添加以下代码：
 if __name__ == "__main__":
     processed_data = preprocess_data('btc_usdt_data.csv')
     print(processed_data.head())

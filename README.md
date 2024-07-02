@@ -1,19 +1,10 @@
-# BTC-LSTM-1H-OKX-98-profit-0.5-transaction-fee
-```markdown
 # Crypto Trading Project
 
 ## 项目简介
-这个项目是一个加密货币交易系统，使用LSTM模型预测未来的加密货币价格，并基于这些预测执行交易策略。项目包括数据收集、数据预处理、模型训练和策略回测等步骤。
+这个项目是一个加密货币交易系统，使用LSTM模型预测未来的加密货币价格，并基于这些预测执行交易策略。
+项目包括数据收集、数据预处理、模型训练和策略回测等步骤。
 
-## 文件结构
-```
-crypto_trading_project/
-├── main.py
-├── data_preprocessing.py
-├── data_collection.py
-├── lstm_model.py
-└── backtesting.py
-```
+
 
 - `main.py`：项目主文件，执行整个流程。
 - `data_collection.py`：从OKX交易所收集加密货币的OHLCV数据。
@@ -25,7 +16,6 @@ crypto_trading_project/
 
 ### 前提条件
 - Python 3.6或以上版本
-- GitHub Desktop（用于代码管理）
 - 安装以下Python库：
   - `pandas`
   - `numpy`
@@ -83,9 +73,6 @@ crypto_trading_project/
 
 - 确保你的API密钥安全，不要在公开的仓库中泄露。
 - 由于加密货币市场的高波动性，实际交易时请谨慎使用此模型。
-
-## 贡献
-欢迎贡献代码！请在提交Pull Request前先创建一个Issue讨论你的计划。
 
 ## 许可证
 此项目基于MIT许可证开源，详情请参阅`LICENSE`文件。
