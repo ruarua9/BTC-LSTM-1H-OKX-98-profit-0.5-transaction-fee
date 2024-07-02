@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
 
 
-# 使用说明：
+## 使用说明：
 # 1. 替换'YOUR_API_KEY'，'YOUR_SECRET_KEY'和'YOUR_API_PASSWORD'为你的实际OKX API密钥
 # 2. 运行此脚本来获取数据
 # 3. 数据将被打印出来，并可选择保存到CSV文件
