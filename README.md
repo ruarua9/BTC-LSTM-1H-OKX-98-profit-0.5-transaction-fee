@@ -1,11 +1,10 @@
-```markdown
 # Crypto Trading Project
 
 ## 项目简介
 这个项目是一个加密货币交易系统，使用LSTM模型预测未来的加密货币价格，并基于这些预测执行交易策略。
 项目包括数据收集、数据预处理、模型训练和策略回测等步骤。
 
-```
+
 
 - `main.py`：项目主文件，执行整个流程。
 - `data_collection.py`：从OKX交易所收集加密货币的OHLCV数据。
