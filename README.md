@@ -16,7 +16,6 @@
 
 ### 前提条件
 - Python 3.6或以上版本
-- GitHub Desktop（用于代码管理）
 - 安装以下Python库：
   - `pandas`
   - `numpy`
